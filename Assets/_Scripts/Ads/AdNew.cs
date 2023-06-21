@@ -30,6 +30,7 @@ public class AdNew : MonoBehaviour
              YandexSDK.YaSDK.instance.ShowRewarded(Reward);
              AudioListener.pause = true;
              Time.timeScale = 0f;
+             Debug.Log("Showing ad!!!");
          }
          
          public void ShowInterstitial()
@@ -44,6 +45,14 @@ public class AdNew : MonoBehaviour
              if (this.Reward == reward)
              {
                  //Reward
+             }
+         }
+
+         private void Update()
+         {
+             if(Input.GetKeyDown(KeyCode.Space))
+             {
+                 ShowRewarded();
              }
          }
 }
