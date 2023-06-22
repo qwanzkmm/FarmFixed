@@ -5,10 +5,14 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Audio;
+using System.Runtime.InteropServices;
+
 
 public class GameManager : MonoBehaviour
 {
+    [DllImport("__Internal")] private static extern int SetToLeaderboard(int value);
     public int coins;
+    
 
     public float raiseSpeed = 1f;
     public float runSpeed = 1f;
@@ -250,7 +254,7 @@ public class GameManager : MonoBehaviour
                     case "strawberry":
                         if (haveStrawberry == 0)
                         {
-                            //YaSDK.instance.ShowRewarded("seed");
+                            YandexSDK.YaSDK.instance.ShowRewarded("seed");
                             haveStrawberry = 1;
                             SaveAll();
                             LoadAll();
@@ -310,7 +314,7 @@ public class GameManager : MonoBehaviour
                     case "corn":
                         if (haveCorn == 0)
                         {
-                            //YaSDK.instance.ShowRewarded("seed");
+                            YandexSDK.YaSDK.instance.ShowRewarded("seed");
                             haveCorn = 1;
                             SaveAll();
                             LoadAll();
@@ -328,7 +332,7 @@ public class GameManager : MonoBehaviour
                     case "grape":
                         if (haveGrape == 0)
                         {
-                            //YaSDK.instance.ShowRewarded("seed");
+                            YandexSDK.YaSDK.instance.ShowRewarded("seed");
                             haveGrape = 1;
                             SaveAll();
                             LoadAll();
@@ -380,7 +384,7 @@ public class GameManager : MonoBehaviour
             case "captain":
                 if (haveCaptainHat == 0)
                 {
-                    //YaSDK.instance.ShowRewarded("hat");
+                    YandexSDK.YaSDK.instance.ShowRewarded("hat");
                     haveCaptainHat = 1;
                     TurnOffAllHats();
                     captainHat.SetActive(true);
@@ -398,7 +402,7 @@ public class GameManager : MonoBehaviour
             case "cowboy":
                 if (haveCowboyHat == 0)
                 {
-                    //YaSDK.instance.ShowRewarded("hat");
+                    YandexSDK.YaSDK.instance.ShowRewarded("hat");
                     haveCowboyHat = 1;
                     TurnOffAllHats();
                     cowboyHat.SetActive(true);
@@ -416,7 +420,7 @@ public class GameManager : MonoBehaviour
             case "graduation":
                 if (haveGraduationHat == 0)
                 {
-                    //YaSDK.instance.ShowRewarded("hat");
+                    YandexSDK.YaSDK.instance.ShowRewarded("hat");
                     haveGraduationHat = 1;
                     TurnOffAllHats();
                     graduationHat.SetActive(true);
@@ -434,7 +438,7 @@ public class GameManager : MonoBehaviour
             case "sunglasses":
                 if (haveSunglassesHat == 0)
                 {
-                    //YaSDK.instance.ShowRewarded("hat");
+                    YandexSDK.YaSDK.instance.ShowRewarded("hat");
                     haveSunglassesHat = 1;
                     TurnOffAllHats();
                     sunglassesHat.SetActive(true);
@@ -575,7 +579,7 @@ public class GameManager : MonoBehaviour
 
     public void BuyFieldA()
     {
-        //YaSDK.instance.ShowRewarded("fieldA");
+        YandexSDK.YaSDK.instance.ShowRewarded("fieldA");
         haveFieldA = 1;
         
         SaveAll();
@@ -584,7 +588,7 @@ public class GameManager : MonoBehaviour
     
     public void BuyFieldB()
     {
-        //YaSDK.instance.ShowRewarded("fieldB");
+        YandexSDK.YaSDK.instance.ShowRewarded("fieldB");
         haveFieldB = 1;
         
         SaveAll();
@@ -659,7 +663,12 @@ public class GameManager : MonoBehaviour
         //Chickens
         PlayerPrefs.SetInt("chickens", chickens);
         
-        //YandexControllerCS.instance.SaveOnLeaderboard(coins);
+        ToLeader();
+    }
+
+    private void ToLeader()
+    {
+        SetToLeaderboard(coins);    
     }
     
 
@@ -761,13 +770,13 @@ public class GameManager : MonoBehaviour
 
     public void BoostRunSpeed()
     {
-        //YandexSDK.YaSDK.instance.ShowRewarded("speedBoost");
+        YandexSDK.YaSDK.instance.ShowRewarded("speedBoost");
         runSpeed += 0.5f;
     }
     
     public void BoostGrowthSpeed()
     {
-        //YandexSDK.YaSDK.instance.ShowRewarded("speedBoost");
+        YandexSDK.YaSDK.instance.ShowRewarded("growthBoost");
         raiseSpeed = 5f;
         Invoke("ReturnGrowthSpeed", 30f);
     }

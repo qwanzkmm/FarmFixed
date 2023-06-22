@@ -7,6 +7,12 @@ public class StartMenu : MonoBehaviour
 {
     private void Start()
     {
-        //Bridge.player.Authorize();
+        Translator.SelectLanguage(PlayerPrefs.GetInt("Language"));
+    }
+
+    public void LanguageChange(int id)
+    {
+        Translator.SelectLanguage(id);
+        PlayerPrefs.SetInt("Language", id);
     }
 }

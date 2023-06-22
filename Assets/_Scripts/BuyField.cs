@@ -45,12 +45,13 @@ public class BuyField : MonoBehaviour
     {
         if (gameManager.coins >= price)
         {
+            buyWindow.SetActive(false);
             gameManager.coins -= price;
             gameManager.haveWallA = 0;
             gameManager.newLevelSound.Play();
             gameManager.SaveAll();
             gameManager.LoadAll();
-            Destroy(buyWindow);
+            buyWindow.SetActive(false);
         }
     }
     
@@ -58,11 +59,12 @@ public class BuyField : MonoBehaviour
     {
         if (gameManager.coins >= 6399)
         {
+            buyWindow.SetActive(false);
             gameManager.coins -= 6399;
             gameManager.haveWallB = 0;
             gameManager.SaveAll();
             gameManager.LoadAll();
-            Destroy(buyWindow);
+            buyWindow.SetActive(false);
         }
     }
     
@@ -70,12 +72,13 @@ public class BuyField : MonoBehaviour
     {
         if (gameManager.coins >= price)
         {
+            buyWindow.SetActive(false);
             gameManager.coins -= price;
             gameManager.haveWallC = 0;
             gameManager.newLevelSound.Play();
             gameManager.SaveAll();
             gameManager.LoadAll();
-            Destroy(buyWindow);
+            buyWindow.SetActive(false);
         }
     }
 

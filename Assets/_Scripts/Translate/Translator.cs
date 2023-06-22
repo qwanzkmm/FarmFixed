@@ -129,9 +129,9 @@ public class Translator : MonoBehaviour
         for (int i = 0; i < listID.Count; i++)
         {
             listID[i].UIText.text = lineText[LanguageID, listID[i].textID];
-            //if (YandexPlayerPrefs.GetInt("Language") == 0) listID[i].UIText.font = Resources.Load<TMP_FontAsset>("RU_font_asset");
-            //else if (YandexPlayerPrefs.GetInt("Language") == 2) listID[i].UIText.font = Resources.Load<TMP_FontAsset>("TR_font_asset");
-            //else listID[i].UIText.font = Resources.Load<TMP_FontAsset>("EN_font_asset");
+            if (PlayerPrefs.GetInt("Language") == 0) listID[i].UIText.font = Resources.Load<TMP_FontAsset>("RU_font_asset");
+            else if (PlayerPrefs.GetInt("Language") == 2) listID[i].UIText.font = Resources.Load<TMP_FontAsset>("TR_font_asset");
+            else listID[i].UIText.font = Resources.Load<TMP_FontAsset>("EN_font_asset");
         }
     }
 
