@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb9eb3ef-dda0-48ea-9d6b-31a09b263c36" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YandexPlugin/com.mrpart.yandexsdkplugin@7266b9515b/Scripts/YaSDK.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexPlugin/com.mrpart.yandexsdkplugin@7266b9515b/Scripts/YaSDK.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Ads/AdNew.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Ads/AdNew.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="fb9eb3ef-dda0-48ea-9d6b-31a09b263c36" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687324978384</updated>
       <workItem from="1687324979527" duration="757000" />
-      <workItem from="1687325753118" duration="739000" />
+      <workItem from="1687325753118" duration="1397000" />
     </task>
     <servers />
   </component>
