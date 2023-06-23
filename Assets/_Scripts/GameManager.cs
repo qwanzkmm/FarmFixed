@@ -198,7 +198,7 @@ public class GameManager : MonoBehaviour
 
     public void GetCoins(int count)
     {
-        //YaSDK.instance.ShowRewarded("coins");
+        YandexSDK.YaSDK.instance.ShowRewarded("coins");
         coins += count;
     }
     
@@ -666,8 +666,9 @@ public class GameManager : MonoBehaviour
         ToLeader();
     }
 
-    private void ToLeader()
+    public void ToLeader()
     {
+        PlayerPrefs.SetInt("coins", coins);
         SetToLeaderboard(coins);    
     }
     
@@ -766,6 +767,8 @@ public class GameManager : MonoBehaviour
         
         haveWallC = PlayerPrefs.GetInt("haveWallC");
         WallC.SetActive(haveWallC == 1);
+        
+        ToLeader();
     }
 
     public void BoostRunSpeed()

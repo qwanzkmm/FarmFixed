@@ -6,15 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="fb9eb3ef-dda0-48ea-9d6b-31a09b263c36" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FarmFixed/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FarmFixed/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/InstantGamesBridge.jslib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/InstantGamesBridge.jslib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyFarmLite/LowPolyFarmLite_2020.3_HDRP_v1.02.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyFarmLite/LowPolyFarmLite_2020.3_URP_v1.02.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/BuyField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/BuyField.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/favicon.ico.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/favicon.ico.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/fullscreen-button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/fullscreen-button.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/progress-bar-empty-dark.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/progress-bar-empty-dark.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/progress-bar-empty-light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/progress-bar-empty-light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/progress-bar-full-dark.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/progress-bar-full-dark.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/progress-bar-full-light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/progress-bar-full-light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/style.css.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/style.css.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/unity-logo-dark.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/unity-logo-dark.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/unity-logo-light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/unity-logo-light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/webgl-logo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/TemplateData/webgl-logo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/index.html.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/index.html.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/thumbnail.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/Yandex/thumbnail.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Folder.DotSettings.user.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Translate/StartMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Translate/StartMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Translate/Translator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Translate/Translator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,28 +42,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\asiko\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\asiko\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\asiko\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\diimo\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\diimo\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\diimo\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\Unity\2021.3.22f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath D:\Unity\QwanzkmmFarm\FarmFixed -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Unity\QwanzkmmFarm\FarmFixed" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -59,7 +71,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\Unity\2021.3.22f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Unity\QwanzkmmFarm\FarmFixed -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Unity\QwanzkmmFarm\FarmFixed" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -99,6 +111,7 @@
       <workItem from="1687325753118" duration="1397000" />
       <workItem from="1687460392555" duration="287000" />
       <workItem from="1687460741054" duration="1833000" />
+      <workItem from="1687494233438" duration="1571000" />
     </task>
     <servers />
   </component>
